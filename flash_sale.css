@@ -103,3 +103,16 @@
         align-items: center;
     }
 }
+@media(max-width:600px){
+    .heading-text{
+        flex-wrap: wrap;   
+    }
+    .item-card-img img{
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    .time-remain{
+        font-size: 15px;  
+    }
+}
