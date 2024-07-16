@@ -64,13 +64,20 @@
 @media(max-width:920px){
     .best-sale-item{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 @media(max-width:550px){
-    .best-sale-item{
+    /* .best-sale-item{
         display: flex;
         align-items: center;
         flex-direction: column;
+    } */
+    .best-sale-item{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .best-sale-item-card{
+        width: 100%;
+        align-items: center;
     }
 }
